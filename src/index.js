@@ -9,9 +9,8 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client'
 
 const client = new ApolloClient({
   //uri: process.env.REACT_APP_GRAPHQL_URI || '/graphql',
-  uri:'https://brave-brattain-9d4060.netlify.app/graphql'
+  uri:'https://brave-brattain-9d4060.netlify.app/graphql',
   //uri:'http://localhost:4001/graphql',
-  //uri:'http://localhost:3000/api/graphql',
   cache: new InMemoryCache(),
 })
 
